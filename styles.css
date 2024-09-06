@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.6;
+    background-color: mediumvioletred;
+    color: deeppink;
+}
+
+a {
+    text-decoration: none;
+    color: #ff4dad;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 1100px;
+    background-color: #ffa3d5;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 70px 60px;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    background-color: #ffe3f2;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.card h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding: 15px;
+    color: #ff5eb6;
+    background-color: mediumvioletred;
+}
+
+.card-pro h2 {
+    background: rgb(107,0,56);
+    background: linear-gradient(360deg, rgba(107,0,56,1) 0%, rgba(111,0,58,1) 3%, rgba(114,0,60,1) 5%, rgba(115,0,61,1) 6%, rgba(119,0,63,1) 9%, rgba(120,0,64,1) 10%, rgba(120,0,64,1) 10%, rgba(123,0,66,1) 12%, rgba(127,0,69,1) 15%, rgba(128,0,70,1) 16%, rgba(131,0,72,1) 18%, rgba(135,0,75,1) 21%, rgba(139,0,77,1) 24%, rgba(143,0,80,1) 27%, rgba(146,0,82,1) 29%, rgba(150,0,84,1) 32%, rgba(153,0,86,1) 34%, rgba(156,0,88,1) 36%, rgba(158,0,89,1) 38%, rgba(161,0,91,1) 40%, rgba(165,0,94,1) 43%, rgba(168,0,96,1) 45%, rgba(171,0,98,1) 47%, rgba(175,0,101,1) 50%, rgba(179,0,104,1) 53%, rgba(182,0,106,1) 55%, rgba(186,0,108,1) 58%, rgba(190,0,111,1) 61%, rgba(193,0,113,1) 63%, rgba(196,0,115,1) 65%, rgba(198,0,116,1) 67%, rgba(201,0,118,1) 69%, rgba(205,0,120,1) 72%, rgba(208,0,122,1) 74%, rgba(212,0,124,1) 77%, rgba(213,0,125,1) 78%, rgba(216,0,127,1) 80%, rgba(217,0,128,1) 81%, rgba(220,0,130,1) 83%, rgba(220,0,130,1) 83%, rgba(224,0,132,1) 86%, rgba(227,0,134,1) 88%, rgba(230,0,136,1) 90%, rgba(232,0,137,1) 92%, rgba(235,0,139,1) 94%, rgba(237,0,140,1) 96%, rgba(238,0,141,1) 97%, rgba(242,0,143,1) 100%);
+}
+
+.card-enterprise h2 {
+    background: rgb(255,0,151);
+background: linear-gradient(360deg, rgba(255,0,151,1) 0%, rgba(255,5,153,1) 3%, rgba(255,6,154,1) 4%, rgba(255,11,156,1) 7%, rgba(255,11,156,1) 7%, rgba(255,13,157,1) 8%, rgba(255,16,158,1) 10%, rgba(255,21,160,1) 13%, rgba(255,21,160,1) 13%, rgba(255,26,162,1) 16%, rgba(255,26,162,1) 16%, rgba(255,31,164,1) 19%, rgba(255,32,165,1) 20%, rgba(255,37,167,1) 23%, rgba(255,40,168,1) 25%, rgba(255,42,169,1) 26%, rgba(255,45,170,1) 28%, rgba(255,48,171,1) 30%, rgba(255,50,172,1) 31%, rgba(255,53,173,1) 33%, rgba(255,55,174,1) 34%, rgba(255,58,175,1) 36%, rgba(255,60,176,1) 37%, rgba(255,64,178,1) 40%, rgba(255,67,179,1) 42%, rgba(255,70,180,1) 44%, rgba(255,73,181,1) 46%, rgba(255,76,183,1) 48%, rgba(255,79,184,1) 50%, rgba(255,84,186,1) 53%, rgba(255,87,187,1) 55%, rgba(255,90,188,1) 57%, rgba(255,95,190,1) 60%, rgba(255,98,192,1) 62%, rgba(255,101,193,1) 64%, rgba(255,106,195,1) 67%, rgba(255,111,197,1) 70%, rgba(255,116,199,1) 73%, rgba(255,121,201,1) 76%, rgba(255,126,203,1) 79%, rgba(255,128,204,1) 80%, rgba(255,132,205,1) 83%, rgba(255,135,206,1) 85%, rgba(255,138,207,1) 87%, rgba(255,141,208,1) 89%, rgba(255,143,209,1) 90%, rgba(255,146,210,1) 92%, rgba(255,151,212,1) 95%, rgba(255,154,213,1) 97%, rgba(255,158,215,1) 100%);
+color: mediumvioletred
+}
+
+.card .price {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.card .price sup {
+    font-size: 18px;
+    position: relative;
+    left: -5px;
+}
+
+.card .price span {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.card .main-text {
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    display: block;
+    border: 1px solid mediumvioletred;
+    border-radius: 5px;
+    background-color: #ffe3f2;
+    color: #ff5eb6;
+    box-shadow: 0px 5px 4px;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    width: 100%;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn:active {
+    background-color: #ffc2e2;
+    color: #f5259e;
+    box-shadow: 0px 0px 0px;
+}
+
+.card ul {
+    text-align: left;
+    margin-top: 50px;
+}
+
+.card ul li i {
+    color: mediumvioletred;
+    margin-right: 10px;
+}
